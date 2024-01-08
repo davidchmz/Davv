@@ -23,7 +23,7 @@ body{
 .navbar h2{
   color: #ffb742;
   font-size: 600;
-
+  cursor: pointer;
 }
 
 .navbar ul{
@@ -82,6 +82,11 @@ body{
 .main h4 span{
   color: #ffb742;
   text-decoration: underline;
+}
+
+.main h4 span:hover{
+  color: #d6880a;
+  cursor: pointer;
 }
 
 .main p.title{
