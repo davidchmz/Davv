@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -9,26 +9,48 @@
 body{
   height: 100vh;
   background: #333333;
-  
 }
 
 .navbar{
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  height: 80px;
-  padding: 0 50px;
+  padding: 10px 50px;
+}
+
+.nav-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-links li {
+  display: flex;
+  display: inline-block; /* or use display: block; if you want them stacked */
+  margin-right: 20px;    /* Adjust the value as per your preference for spacing */
+}
+
+/* Optional: To remove margin from the last li element */
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+
+.navbar .nav-links ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  margin-right: 25px;
+  transition: color 0.3s ease;
 }
 
 .navbar h2{
-  color: #ffb742;
-  font-size: 600;
   cursor: pointer;
 }
 
-.navbar ul{
-  display: flex;
+.nav li{
+  display: inline;
 }
-
+	
 .navbar ul li{
   list-style: none;
 }
@@ -37,75 +59,13 @@ body{
   text-decoration: none;
   color: #fff;
   font-size: 16px;
-  margin-right: 25px;
-  transition: color 0.3s ease;
 }
 
 .navbar ul li:hover a{
-  color: #ffb742;
-}
-
-.navbar ul li:last-child a{
-  margin: 0;
-}
-
-.social-icons{
 
 }
 
-.hire-btn{
-  background: #ffb742;
-  padding: 6px 30px;
-  border: none;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 6px;
-  transition: background-color 0.3s ease ;
-
-}
-
-.hire-btn:hover{
-  background: #d6880a;
-}
-
-.main{
-  height: 640px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.main h4{
-  font-size: 32px;
-  color: #fff;
-  font-weight: 600;
-}
-
-.main h4 span{
-  color: #ffb742;
-  text-decoration: underline;
-}
-
-.main h4 span:hover{
-  color: #d6880a;
-  cursor: pointer;
-}
-
-.main p.title{
-  font-size: 44px;
-  font-weight: 600;
-  color: #fff;
-  margin-bottom: 4px;
-}
-
-.main p.subtitle{
-  font-size: 16px;
-  color: #ccc;
-}
-
-.main img{
-  width: 200px;
-  height: 200px;
-  margin: top 100px; 
+.nav-social-icons ul li{
+  width: 25px;
+  height: 25px;
 }
