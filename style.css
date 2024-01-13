@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-*{
+*{ 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -7,8 +9,9 @@
 }
 
 body{
-  height: 100vh;
-  background: #333333;
+  font-family: sans-serif;
+  color: rgb(255, 255, 255);
+  background: rgb(29, 29, 29);
 }
 
 .navbar{
@@ -16,56 +19,84 @@ body{
   justify-content: space-between;
   align-items: center;
   padding: 10px 50px;
+  text-decoration: none;
+  color: white;
 }
 
-.nav-links ul {
-  list-style: none;
+.navbar .logo{
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.navbar .accent-txt-logo{
+  color: #08fdd8;
+}
+
+.nav-links {
+  display: flex;
   padding: 0;
 }
 
-.nav-links li {
-  display: flex;
-  display: inline-block; /* or use display: block; if you want them stacked */
-  margin-right: 20px;    /* Adjust the value as per your preference for spacing */
-}
-
-/* Optional: To remove margin from the last li element */
-.nav-links li:last-child {
-  margin-right: 0;
-}
-
-
-.navbar .nav-links ul li a{
+.nav-links a{
+  color: white; 
   text-decoration: none;
-  color: #fff;
-  font-size: 16px;
-  margin-right: 25px;
-  transition: color 0.3s ease;
+  padding-right: 9px;
 }
 
-.navbar h2{
-  cursor: pointer;
+.nav-links a:hover{
+  color: #08fdd8;
 }
 
-.nav li{
-  display: inline;
-}
-	
-.navbar ul li{
-  list-style: none;
+.nav-social-icons a{
+  color: white;
+  padding: 3px;
 }
 
-.navbar ul li a{
+.nav-social-icons a:hover{
+  color: #08fdd8;
+}
+
+/* navbar ends here */
+
+.intro{
+  padding-left: 50px;
+  margin-top: 70px;
+}
+
+.intro .accent-txt{
+  color: #08fdd8;
+}
+
+.intro h1{
+  line-height: 30px;
+}
+
+.intro .gray-text{
+  margin-top: 20px;
+  color: #a2a2a3;
+  letter-spacing: 3px;
+  font-size: 14px;
+}
+
+.contact-btn{
   text-decoration: none;
-  color: #fff;
-  font-size: 16px;
+  border: ;
+  background: none;
+  border-color: #08fdd8;
+  border-style: double;
+  width: 100%;
+  max-width: 200px;
+  height: 40px;
+  display: block;
+  line-height: 40px;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #08fdd8;
+  margin-top: 25px;
 }
 
-.navbar ul li:hover a{
-
-}
-
-.nav-social-icons ul li{
-  width: 25px;
-  height: 25px;
+.contact-btn:hover{
+  background-color: #08fdd8;
+  color: black;
 }
