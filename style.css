@@ -103,7 +103,11 @@ body{
   letter-spacing: 3px;
   text-align: center;
   color: #08fdd8;
+<<<<<<< HEAD
   margin-top: 50px;
+=======
+  margin-top: 60px;
+>>>>>>> fcee8df (update)
 }
 
 .contact-btn:hover{
