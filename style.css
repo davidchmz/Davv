@@ -117,3 +117,48 @@ body{
   color: black;
 }
 
+.about-content{
+  display: flex;
+  font-family: "NTR", sans-serif ;
+  margin-top: 150px;
+  padding-left: 100px;
+}
+
+.about-description h2{
+  font-size: 3.5rem;
+}
+
+.about-description{
+  font-size: 1.8rem;
+  line-height: 35px;
+  margin-right: 200px;
+}
+
+.about-description h2{
+  margin-bottom: 45px;
+}
+
+.about-description p{
+  margin-bottom: 24px;
+}
+
+.about-description ul{
+  display: grid;
+  grid-template-columns: repeat(2,minmax(150px,10px));
+  list-style: ;
+}
+
+.about-img{
+  margin-top: 70px;
+}
+
+.about-description .tech-stack{
+  margin: 20px 30px;
+}
+
+.about-img img{
+  border: none;
+  border-radius: 10px;
+  box-shadow: 6px 13px 23px -5px #00000075;
+  max-width: 300px;
+}
