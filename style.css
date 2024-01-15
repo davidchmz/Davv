@@ -9,7 +9,7 @@
 
 body{
   font-family: sans-serif;
-  color: rgb(255, 255, 255);
+  color: #d7dbe8;
   background: #0a192f;
 }
 
@@ -79,7 +79,7 @@ body{
 
 .intro h1{
   color: #d7dbe8;
-  font-size: 6rem;
+  font-size: 5rem;
   line-height: 70px;
   letter-spacing: -5px;
 }
@@ -116,3 +116,4 @@ body{
   background-color: #08fdd8;
   color: black;
 }
+
