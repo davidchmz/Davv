@@ -69,7 +69,7 @@ body{
 /* navbar ends here */
 
 .intro{
-  padding-left: 50px;
+  padding-left: 100px;
   margin-top: 130px;
 }
 
@@ -86,7 +86,7 @@ body{
 
 .intro .gray-text{
   margin-top: 25px;
-  color: #a2a2a3;
+  color: #8892b0;
   letter-spacing: 3px;
   font-family:  "NTR", sans-serif;
   font-size: 14px;
@@ -125,27 +125,39 @@ body{
 }
 
 .about-description h2{
+  color: #d7dbe8;
   font-size: 3.5rem;
 }
 
 .about-description{
-  font-size: 1.8rem;
-  line-height: 35px;
+  color: #8892b0;
+  font-size: 1.7rem;
+  line-height: 32px;
   margin-right: 200px;
 }
 
 .about-description h2{
-  margin-bottom: 45px;
+  margin-bottom: 50px;
 }
 
 .about-description p{
-  margin-bottom: 24px;
+  margin-bottom: 25px;
 }
 
 .about-description ul{
   display: grid;
   grid-template-columns: repeat(2,minmax(150px,10px));
-  list-style: ;
+  list-style: none;
+}
+
+.about-description li{
+  font-size: 1.5rem;
+}
+
+.about-description li::before{
+  color: #64ffda;
+  content: "▹ ";
+  left: 0;
 }
 
 .about-img{
@@ -153,7 +165,7 @@ body{
 }
 
 .about-description .tech-stack{
-  margin: 20px 30px;
+  margin: 20px 0px;
 }
 
 .about-img img{
