@@ -75,7 +75,7 @@ body{
 
 .intro{
   padding-left: 100px;
-  margin-top: 130px;
+  margin-top: 190px;
 }
 
 .intro .accent-txt{
@@ -125,7 +125,7 @@ body{
 .about-content{
   display: flex;
   font-family: "NTR", sans-serif ;
-  margin-top: 150px;
+  margin-top: 220px;
   padding-left: 100px;
 }
 
@@ -134,15 +134,25 @@ body{
   font-size: 3.5rem;
 }
 
+.about-description h2::after{
+  background-color: #233554;
+  content: "";
+  display: block;
+  height: 1px;
+  margin-left: 210px;
+  margin-top: -11px;
+  width: 300px;
+}
+
 .about-description{
   color: #8892b0;
   font-size: 1.7rem;
   line-height: 32px;
-  margin-right: 120px;
+  margin-right: 250px;
 }
 
 .about-description h2{
-  margin-bottom: 50px;
+  margin-bottom: 65px;
 }
 
 .about-description p{
@@ -177,5 +187,27 @@ body{
   border: none;
   border-radius: 10px;
   box-shadow: 6px 13px 23px -5px #00000075;
-  max-width: 325px;
+  max-width: 300px;
+}
+
+.projects{
+  display: flex;
+  font-family: "NTR", sans-serif ;
+  padding-left: 100px;
+  padding-top: 80px;
+}
+
+.section-title h2{
+  color: #d7dbe8;
+  font-size: 3.5rem;
+}
+
+.section-title h2::after{
+  background-color: #233554;
+  content: "";
+  display: block;
+  height: 1px;
+  margin-left: 190px;
+  margin-top: -42px;
+  width: 300px;
 }
