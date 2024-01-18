@@ -7,6 +7,27 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior:smooth;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+#fade-in-section{
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1s ease-in-out forwards;
+}
+
 body{
   font-family: sans-serif;
   color: #d7dbe8;
@@ -25,6 +46,7 @@ body{
   background-color: #0a192f;
   position: fixed;
   top: 0;
+  z-index: 1030;
   width: 100%;
 }
 
@@ -75,14 +97,14 @@ body{
 
 .intro{
   padding-left: 100px;
-  margin-top: 190px;
 }
 
 .intro .accent-txt{
   color: #08fdd8;
 }
 
-.intro h1{
+.intro h1{ 
+  padding-top: 200px;
   color: #d7dbe8;
   font-size: 5rem;
   line-height: 70px;
@@ -125,7 +147,7 @@ body{
 .about-content{
   display: flex;
   font-family: "NTR", sans-serif ;
-  margin-top: 220px;
+  padding-top: 150px;
   padding-left: 100px;
 }
 
