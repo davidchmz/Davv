@@ -235,14 +235,20 @@ body{
 }
 
 .projects-card {
-    background-color: #112240;
-    border-radius: 16px;
-    cursor: default;
-    display: flex;
-    flex-direction: column;
-    padding: 2rem 1.75rem;
-    margin-top: 65px;
-    position: relative
+  background-color: #112240;
+  border-radius: 16px;
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1.75rem;
+  margin-top: 65px;
+  position: relative;
+  transition:transform 1ms ease-out;
+}
+
+.projects-card:hover{
+  background-color:#233554;
+  transform: translateY(-7px);
 }
 
 .card-header{

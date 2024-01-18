@@ -15,3 +15,5 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             section.classList.add('animate');
         });
     });
+
+    
