@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
+
 *{ 
   margin: 0;
   padding: 0;
@@ -301,3 +302,44 @@ body{
   width: 100%;
 }
 
+
+/* 2xl */
+@media (max-width: 1440px) {
+ 
+}
+
+/* xl */
+@media (max-width: 1024px) {
+  
+}
+
+/* lg */
+@media (max-width: 768px) {
+ 
+}
+
+/* md */
+@media (max-width: 425px) {
+  
+}
+
+/* sm */
+@media (max-width: 375px) {
+
+}
+
+/* xs */
+@media (max-width: 320px) {
+  .logo{
+    display: none;
+  }
+  
+  .nav-links{
+    display: none;
+  }
+
+  .nav-social-icons{
+    display: flex;
+    justify-content: flex-end;
+  }
+}
