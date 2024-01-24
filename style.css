@@ -346,7 +346,7 @@ body{
 
   .intro{
     max-width: 320px;
-    padding-left: 50px;
+    padding-left: 30px;
   }
 
   .intro h1{
@@ -375,12 +375,16 @@ body{
   }
 
   .about-description{
-    font-size: 10px;
+    font-size: 15px;
     line-height: 25px;
   }
 
   .about-description li{
     font-size: 1.2rem;
+  }
+
+  .about-description h2 {
+    font-size: 2.7rem;
   }
 
   .projects{
@@ -404,6 +408,10 @@ body{
 
   .projects-container{
     margin-top: 50px;
+  }
+
+  .section-title h2{
+    font-size: 2.7rem;
   }
 
   #credits{
@@ -492,10 +500,10 @@ body{
     grid-template-columns: repeat(2,minmax(100px,1fr));
   }
 
-  .projects .section-title{
+  .section-title h2{
     font-size: 2.7rem;
   }
-  
+
   .projects-card{
     margin: 0;
   }
