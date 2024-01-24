@@ -369,16 +369,20 @@ body{
 
   .about-content{
     padding-top: 120px;
-    padding-left: 50px;
+    padding-left: 30px;
   }
 
   .about-description{
-    font-size: 15px;
+    font-size: 11px;
     line-height: 25px;
   }
 
+  .about-description li{
+    font-size: 1.2rem;
+  }
+
   .projects{
-    padding-left: 50px;
+    padding-left: 30px;
     padding-top: 30px;
   }
 
