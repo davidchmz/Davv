@@ -338,8 +338,8 @@ body{
   }
 
   .nav-social-icons a {
-    padding-right: 7px;
-    font-size: 1.3rem;
+    padding-right: 10px;
+    font-size: 1rem;
   }
 
   .intro{
@@ -348,8 +348,8 @@ body{
   }
 
   .intro h1{
-    font-size: 6rem;
-    letter-spacing: -2px;
+    font-size: 5rem;
+    letter-spacing: -4px;
   }
 
   .intro .gray-text{
