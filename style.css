@@ -421,7 +421,9 @@ body{
 @media (max-width: 320px) {
 
   .navbar{
-    padding-left: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .logo{
     display: none;
@@ -432,7 +434,7 @@ body{
   }
 
   .nav-social-icons a {
-    padding-right: 7px;
+    padding-right: 13px;
     font-size: 1.3rem;
   }
 
@@ -467,8 +469,12 @@ body{
   }
 
   .about-description{
-    font-size: 15px;
+    font-size: 10px;
     line-height: 25px;
+  }
+
+  .about-description h2 {
+    font-size: 2.7rem;
   }
 
   .projects{
