@@ -327,7 +327,9 @@ body{
 @media (max-width: 375px) {
 
   .navbar{
-    padding-left: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .logo{
     display: none;
@@ -338,8 +340,8 @@ body{
   }
 
   .nav-social-icons a {
-    padding-right: 6px;
-    font-size: 1rem;
+    padding-right: 15px;
+    font-size: 1.3rem;
   }
 
   .intro{
