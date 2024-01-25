@@ -554,8 +554,8 @@ body{
   .contact-btn{
     font-size: 15px;
     max-width: 300px;
-    margin-top: 50px;
-    height: 50px;
+    margin-top: 60px;
+    height: 55px;
   }
 
   .about-description h2::after{
