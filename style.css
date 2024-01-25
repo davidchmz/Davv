@@ -568,8 +568,8 @@ body{
   }
 
   .about-description{
-    font-size: 8px;
-    line-height: 18px;
+    font-size: 9px;
+    line-height: 17px;
   }
 
   .about-description li{
@@ -578,6 +578,11 @@ body{
 
   .about-description h2 {
     font-size: 2.7rem;
+  }
+
+  .about-description .tech-stack{
+    font-size: 10px;
+    line-height: 25px;
   }
 
   .projects{
