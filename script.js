@@ -16,4 +16,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 
-    
+ document.getElementsByClassName("contact-btn").addEventListener("click", function() {
+        window.location.href = "mailto:davidchimezief@gmail.com";
+    });
