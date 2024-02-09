@@ -15,7 +15,3 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             section.classList.add('animate');
         });
     });
-
- document.getElementsByClassName("contact-btn").addEventListener("click", function() {
-        window.location.href = "mailto:davidchimezief@gmail.com";
-    });
