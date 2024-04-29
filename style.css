@@ -190,7 +190,7 @@ body{
 }
 
 .about-description li{
-  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .about-description li::before{
@@ -205,6 +205,7 @@ body{
 
 .about-description .tech-stack{
   margin: 20px 0px;
+  font size: 
 }
 
 .about-img img{
